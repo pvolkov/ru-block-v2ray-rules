@@ -16,7 +16,7 @@ jobs:
       - name: Checkout v2ray-geosite repository
         uses: actions/checkout@v4
         with:
-          repository: Nidelon/v2ray-geosite
+          repository: pvolkov/v2ray-geosite
           path: v2ray-geosite
 
       - name: Setup Go
