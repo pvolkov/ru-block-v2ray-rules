@@ -59,7 +59,7 @@ jobs:
       - name: Generate geosite.dat file
         run: |
           cd v2ray-geosite
-          mkdir data
+          mkdir -p data
           mv ../ru-block.txt data/ru-block
 
           go run ./ --datapath=data --outputdir=../release --outputname=geosite.dat
